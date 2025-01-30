@@ -6,11 +6,6 @@ public class Mover : MonoBehaviour
 
     [SerializeField] private Vector3 _direction;
 
-    private void Awake()
-    {
-
-    }
-
     private void Update()
     {
         _direction = transform.forward;
